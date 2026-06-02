@@ -1,0 +1,50 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+
+# Environment variables (secrets)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+debug_trace.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/

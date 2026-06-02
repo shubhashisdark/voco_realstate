@@ -1,0 +1,126 @@
+Timestamp,Source,Name,Phone,Email,City,Property Interest,Budget,Notes,CallID
+2026-05-17T10:54:44.688643+00:00,voice,Vishwajeet,+917894395106,,,,,"Sentiment: neutral. Analysis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 15.613628948s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '15s'}]}}",CA94ec9d67f43e4514a3f5be1e922eb4e6
+2026-05-17T13:27:15.555808+00:00,voice,Biswajit Pal,+919999888888,,,"2BHK in Bhubaneswar, Odisha","50,00,000",,CAbb8caa5b5f4b3532be4706d8941e55ae
+2026-05-17T13:47:15.684242+00:00,voice,Ramu Kaka,+917735177608,,,Residential property in Delhi,"80,00,000",,CAc454365527cdde9bd52d9d747fae4f24
+2026-05-17T13:57:28.074822+00:00,voice,Rajendra,+9185XXX747XX,,,"2BHK in Bhubaneswar, Odisha","1,00,00,000",,CAfe28664b7b2850a8ae409158e5c8d0ad
+2026-05-17T14:35:55.721931+00:00,voice,Suveer,+9990000000,,Noida,"2BHK in Noida, Uttar Pradesh","50,00,000 - 2,00,00,000",,CAee02ace0b38f73391f4809cced22a630
+2026-05-17T15:03:23.272427+00:00,voice,Biswajit Kher,,,,"Villa in Bengaluru, Karnataka","10,00,000",,CAced59911e00d456c2d2b13bc115ed011
+2026-05-17T15:27:34.182196+00:00,voice,Nageshwar Rao,+919348470094,,Pune,"Plot in Sector 72, Pune",30-40 Lakhs,,CAd55efb62d915f4b6ed78cf076ecad0fc
+2026-05-17T15:56:45.463103+00:00,voice,Krishna Rao,+91348136689,,Bhubaneswar,"Residential property in Bhubaneswar, Odisha",60-70 Lakhs,,CA21bb8820248a2346e4e5941026a2f589
+2026-05-18T02:50:30.245748+00:00,voice,Subhashish,+918480210322,,Noida,Property in Noida,,,CA15fd836dcaa08bda2de885f89948fec3
+2026-05-18T03:08:33.067638+00:00,voice,Customer,+919556855171,,Delhi,Property in Delhi,40 Lakhs,,CA8766c383527621b166edd8abc96d9cef
+2026-05-18T03:21:51.120683+00:00,voice,Customer,,,,Property in Mangaluru,Up to 20 Lakhs,,CA439f8a7f7af154bab6c2dde7a08c6168
+2026-05-18T03:24:33.003294+00:00,voice,Anita,+917752013845,,Bhubaneswar,"Commercial Property in Sector 22, Bhubaneswar, Odisha",7.6 Crores,,CA3d3ce6310f0a7e8461cb273485c81684
+2026-05-18T05:15:36.872722+00:00,voice,Basish,+8480210322,,Hyderabad,"Elite Villas - 3BHK+Villa in Sector 111, Hyderabad, Hyderabad",6.68 Crores,,CA796864784d1c76f6c01e917b1d27887a
+2026-05-18T05:33:19.179143+00:00,voice,N/A,+918480210322,N/A,Nagpur,"3BHK in Nagpur, Maharashtra",1.78 Crores,,CAf72ccb4946b1fd67a75b673d23a5142b
+2026-05-18T06:34:57.802546+00:00,voice,Utkal,,,Odisha,"Property in Baleshwar, Odisha",,,CA04a146a7e04acb893f172a247188bb9e
+2026-05-18T07:36:24.997769+00:00,voice,Devashish Singh,+918480210322,,Baleswar,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,,CAfd06fbb8c0db808b543cb93eb249c956
+2026-05-18T11:07:45.332645+00:00,voice,Sudhakar,+918480210312,,"Balasore, Odisha","Plot Balasore, Odisha",from 800000 up to 1000000,,CAd65bd0921328ccf7d9199b0f30dbbc0f
+2026-05-18T14:04:53.589173+00:00,voice,Satyajit Das,+9348470094,,Bhubaneswar,2BHK in Bhubaneswar,10 Lakhs to 2 Crores,,CA599bc72789b083f0c6e940d3ffeca9bc
+2026-05-18T14:35:36.295665+00:00,whatsapp,Biswajit Dash,+917894395106,,Noida,"3BHK Villa in Royal Villas, Sector 150, Noida",around 6.5 Crores,Interested in exploring available 3BHK options instead.,CAd15a3f98567340826030e818c43f3e3e
+2026-05-18T15:20:41.307668+00:00,whatsapp,Biswajit Dash Test,+917894395106,,Noida,"3BHK Villa in Royal Villas, Noida Sector 150",6.49 Crores,Interested in Royal Villas Sector 150 Noida.,
+2026-05-19T11:12:42.900743+00:00,voice,Vishwajit,+917894395106,,Bhubaneswar,3BHK in Bhubaneswar,2-3 Crores,,CA2792a2bc58acbddd4e53cf564012847d
+2026-05-19T12:47:38.534389+00:00,voice,Abdelatif,+91,,,property in Cuttack,,"Technical issue with property search for Cuttack, requires callback",CA3454310bd08e7e00a345b01e5d64cd75
+2026-05-20T07:12:31.706226+00:00,voice,Aditya,+919876543210,,Noida,"2BHK,3BHK Noida",,,CAc7085a24e9e1f31742eda1ab1cee78fb
+2026-05-20T12:51:05.406238+00:00,voice,Biswajit,+91XXXXXXXXXX,,Noida,3BHK in Noida,1 Crore,,CA7f9f5445ca23128d205e06024a728cf0
+2026-05-19T11:12:42.900000,voice,Vishwajit,+917894395106,,Bhubaneswar,3BHK in Bhubaneswar,2-3 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-20T14:59:09.840221+00:00,voice,Vishwajit,+917894395106,,Bhubaneswar,3BHK in Bhubaneswar,2-3 Crores,,CA22e4243eeb358cdcf5db924bb1cf410f
+2026-05-20T15:22:10.515739+00:00,voice,Unknown Customer,+91 84802 10322,,,Outbound Lead,,Outbound call initiated from VOCO Make Call UI.,
+2026-05-20T15:25:01.239896+00:00,voice,Radhe,+91 84802 10322,,Bhubaneswar,Property in Odisha,N/A,,CA5fee2ec60f0f4b1ac4d583de9f140a95
+2026-05-20T14:59:09.840000,voice,Vishwajit,+917894395106,,Bhubaneswar,3BHK in Bhubaneswar,2-3 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-20T15:39:30.541404+00:00,voice,Vishwajit,+917894395106,,Rourkela,3BHK in Bhubaneswar (booked site visit in Rourkela),2-3 Crores,"Booked site visit for Grand Valley, Rourkela on 2026-05-22 at 4 PM",CAb126d39b5c786acf06be0677f099b583
+2026-05-20T15:39:30.541000,voice,Vishwajit,+917894395106,,Rourkela,3BHK in Bhubaneswar (booked site visit in Rourkela),2-3 Crores,"Booked site visit for Grand Valley, Rourkela on 2026-05-22 at 4 PM",
+2026-05-20T16:18:35.026480+00:00,voice,Vishwajit,+917894395106,vishwajit.929@gmail.com,"Balasore, Odisha",1BHK in Baleswar,2-3 Crores,Outbound call initiated from VOCO Make Call UI.,CAd09d089f1e29cb214675b7c8a4ba9dc5
+2026-05-20T16:18:35.026000,voice,Vishwajit,+917894395106,vishwajit.929@gmail.com,"Balasore, Odisha",1BHK in Baleswar,2-3 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-20T16:18:35.026000,voice,Vishwajit,+917894395106,vishwajit.929@gmail.com,"Balasore, Odisha",1BHK in Baleswar,2-3 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-18T07:36:24.997000,voice,Devashish Singh,+918480210322,,Baleswar,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-18T07:36:24.997000,voice,Devashish Singh,+918480210322,,Baleswar,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-18T07:36:24.997000,voice,Devashish Singh,+918480210322,,Baleswar,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-18T07:36:24.997000,voice,Devashish Singh,+918480210322,,Baleswar,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-21T05:57:42.706818+00:00,voice,Unknown Customer,+9163700 68032,,,Outbound Lead,,Outbound call initiated from VOCO Make Call UI.,
+2026-05-21T05:58:36.174701+00:00,voice,Anurag,+916370068032,anurag@rediffmail.com,Bhubaneswar,"1BHK, 2BHK, 3BHK, Villa, Commercial",34.51 Lakhs - 7.6 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-21T06:01:14.151614+00:00,voice,Anurag,+916370068032,anurag@rediffmail.com,Bhubaneswar,"1BHK, 2BHK, 3BHK, Villa, Commercial in Bhubaneswar",34.51 Lakhs - 7.6 Crores,Customer inquired about properties in Bhubaneswar. Details sent to WhatsApp. Sentiments are negative.,CAc40720830425b1b4ad850811219115ce
+2026-05-21T06:03:28.669336+00:00,voice,Anurag,+916370068032,,,"1BHK, 2BHK, 3BHK, Villa, Commercial",34.51 Lakhs - 7.6 Crores,,CA98fc2527016b42f29f9583dce0ef0178
+2026-05-21T06:06:06.190609+00:00,voice,Anurag,+916370068032,,,"1BHK, 2BHK, 3BHK, Villa, Commercial",34.51 Lakhs - 7.6 Crores,Customer reported technical issues on their end. Need callback.,CAff9a339749b2c4013bb664eacbfcd404
+2026-05-18T07:36:24.997000,voice,Devashish Singh,+918480210322,,Baleswar,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-18T07:36:24.997000,voice,Devashish Singh,+918480210322,,Baleswar,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-18T07:36:24.997000,voice,Devashish Singh,+918480210322,,Baleswar,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-18T07:36:24.997000,voice,Devashish Singh,+918480210322,,Baleswar,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-21T06:21:26.925669+00:00,voice,Unknown Customer,+919040256689,,,Outbound Lead,,Outbound call initiated from VOCO Make Call UI.,
+2026-05-18T07:36:24.997000,voice,Devashish Singh,+918480210322,,Baleswar,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-18T07:36:24.997000,voice,Devashish Singh,+918480210322,,Baleswar,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-21T06:57:12.042009+00:00,voice,Unknown Customer,+917436931071,,,Outbound Lead,,Initiated via Make Call UI page.,
+2026-05-21T06:21:26.846000,voice,Unknown Customer,+919040256689,,,Outbound Lead,,Initiated via Make Call UI page.,
+2026-05-20T16:18:35.026000,voice,Vishwajit,+917894395106,vishwajit.929@gmail.com,"Balasore, Odisha",1BHK in Baleswar,2-3 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-18T07:36:24.997000,voice,Devashish Singh,+918480210322,,Baleswar,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-21T07:05:36.944655+00:00,voice,Vishwajit,+917894395106,biswajeetdas929@gmail.com,"Balasore, Odisha","2BHK Balasore, Odisha","from 50,00,000 up to 2,00,00,000",,CA4a3146a5d67c0ba89f72dd4f20644baf
+2026-05-18T07:36:24.997000,voice,Devashish Singh,+918480210322,,Baleswar,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-21T07:37:13.534364+00:00,voice,Devashish Singh,+918480210322,,,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,,CAff4e8822099693233b0802a05dd5a5dd
+2026-05-21T07:37:13.534000,voice,Devashish Singh,+918480210322,,,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-21T07:37:13.534000,voice,Devashish Singh,+918480210322,,,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-21T07:37:13.534000,voice,Devashish Singh,+918480210322,,,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-21T07:37:13.534000,voice,Devashish Singh,+918480210322,,,2BHK or 3BHK in Baleswar,50 Lakhs - 1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-21T17:51:59.923345+00:00,whatsapp,Devashish Singh,+918480210322,,Noida,3BHK Villa in Nagpur (Elite Villas),50 Lakhs - 4 Crores,Customer wants to schedule a site visit for Elite Villas in Nagpur.,
+2026-05-21T07:37:13.534000,voice,Devashish Singh,+918480210322,,,3BHK Villa in Nagpur (Elite Villas),50 Lakhs - 4 Crores,Customer wants to schedule a site visit for Elite Villas in Nagpur.,
+2026-05-21T07:37:13.534000,voice,Devashish Singh,+918480210322,,,3BHK Villa in Nagpur (Elite Villas),50 Lakhs - 4 Crores,Customer wants to schedule a site visit for Elite Villas in Nagpur.,
+2026-05-24T10:09:58.831347+00:00,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK Villa in Bhubaneswar,1 Crore,,CAefa79cc347cb720f74e4a1f0c86c476a
+2026-05-24T10:09:58.831000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK Villa in Bhubaneswar,1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-24T10:09:58.831000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK Villa in Bhubaneswar,1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T05:24:32.750265+00:00,voice,Unknown Customer,+91 78943 95106,,,Outbound Lead,,Outbound call initiated from VOCO Make Call UI.,
+2026-05-24T10:09:58.831000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK Villa in Bhubaneswar,1 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T05:26:47.377809+00:00,voice,Unknown Customer,+917894395106,,Bhubaneswar,2BHK in Bhubaneswar,50 Lakhs,,CA07fe187a0ecd87bafddd21ef60dec2e5
+2026-05-25T05:27:08.358842+00:00,voice,Devashish Singh,+918480210322,,Indore,Villa in Indore,1.5 Crore,Outbound call initiated from VOCO Make Call UI.,CA8d8f60e7e79c95a2db3211170e76999b
+2026-05-25T06:08:49.646185+00:00,voice,Aditya,+916371199137,,Bhubaneswar,3BHK in Bhubaneswar,2.5 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T06:09:51.136542+00:00,voice,Unknown Customer,+916371199137,,,,,,CAdf656feedf453ee4d107155763f743bf
+2026-05-25T06:16:49.588004+00:00,voice,Aditya,+916371199137,,Bhubaneswar,3BHK in Bhubaneswar,2.5 Crores,,CA672f82f8fcb3bf458a2d13c616b7e744
+2026-05-25T06:38:31.551150+00:00,voice,Aditya,+916371199137,,Bhubaneswar,3BHK in Bhubaneswar,2.5 Crores,,CA6e07a547980ab6bb60e1508dfe9aca1f
+2026-05-25T05:27:08.358000,voice,Devashish Singh,+918480210322,,Indore,Villa in Indore,1.5 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T05:27:08.358000,voice,Devashish Singh,+918480210322,,Indore,Villa in Indore,1.5 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T05:27:08.358000,voice,Devashish Singh,+918480210322,,Indore,Villa in Indore,1.5 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T05:26:47.377000,voice,Unknown Customer,+917894395106,,Bhubaneswar,2BHK in Bhubaneswar,50 Lakhs,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T05:26:47.377000,voice,Unknown Customer,+917894395106,,Bhubaneswar,2BHK in Bhubaneswar,50 Lakhs,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T05:27:08.358000,voice,Devashish Singh,+918480210322,,Indore,Villa in Indore,1.5 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T05:27:08.358000,voice,Devashish Singh,+918480210322,,Indore,Villa in Indore,1.5 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T05:27:08.358000,voice,Devashish Singh,+918480210322,,Indore,Villa in Indore,1.5 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T05:27:08.358000,voice,Devashish Singh,+918480210322,,Indore,Villa in Indore,1.5 Crore,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T12:30:12.238255+00:00,voice,Devashish Singh,+918480210322,,Bhubaneswar,2 or 3BHK Apartment in Bhubaneswar,not range provided,Outbound call initiated from VOCO Make Call UI.,CAb08bdd9cc6adf9fc676227890eb168f0
+2026-05-25T05:26:47.377000,voice,Unknown Customer,+917894395106,,Bhubaneswar,2BHK in Bhubaneswar,50 Lakhs,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T12:45:06.369828+00:00,voice,Vishwajit,+917894395106,,Mumbai,"2BHK in Andheri West, Mumbai",65 Lakhs,,CAa2df4326448595339ed91b8c2913ce63
+2026-05-25T12:30:12.238000,voice,Devashish Singh,+918480210322,,Bhubaneswar,2 or 3BHK Apartment in Bhubaneswar,not range provided,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T12:30:12.238000,voice,Devashish Singh,+918480210322,,Bhubaneswar,2 or 3BHK Apartment in Bhubaneswar,not range provided,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T06:38:31.551000,voice,Aditya,+916371199137,,Bhubaneswar,3BHK in Bhubaneswar,2.5 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-25T06:38:31.551000,voice,Aditya,+916371199137,,Bhubaneswar,3BHK in Bhubaneswar,2.5 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T11:38:03.457000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T11:38:03.457000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T11:38:03.457000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T11:38:03.457000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T13:02:26.241617+00:00,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,CA50b6017c04058707caf384036b7f7546
+2026-05-26T13:09:28.749219+00:00,voice,Unknown Customer,+91848021032,,,Outbound Lead,,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T13:02:26.241000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T13:02:26.241000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T13:02:26.241000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T13:02:26.241000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T13:02:26.241000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T13:02:26.241000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T15:43:46.892102+00:00,voice,Unknown Customer,+918328997563,,,Outbound Lead,,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T13:02:26.241000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T13:02:26.241000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T13:02:26.241000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T13:02:26.241000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T13:02:26.241000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T13:02:26.241000,voice,Devashish Singh,+918480210322,,Bhubaneswar,3BHK in Bhubaneswar,3-4 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-26T12:24:16.937000,voice,Unknown Customer,+918249414554,,,Outbound Lead,,Initiated via Incoming Twilio Call.,
+2026-05-27T12:42:54.005941+00:00,voice,Unknown Customer,+9184980210322,,,Outbound Lead,,Initiated via Make Call UI page.,
+2026-05-27T11:28:43.904000,voice,Devashish Singh,+918480210322,,Mumbai,3BHK in Mumbai,1.5 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-27T12:52:55.120916+00:00,voice,Anil,+918249414554,Not Provided,Bangalore,"Marathahalli & Airport area in Bangalore, Airport area in Hyderabad",Unknown,,CA4f44c71de0fd54cf64da47756c658106
+2026-05-25T06:38:31.551000,voice,Aditya,+916371199137,,Bhubaneswar,3BHK in Bhubaneswar,2.5 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-27T13:09:54.574624+00:00,voice,Aditya,+916371199137,,Noida,3BHK in Noida,82.85 Lakhs - 95 Lakhs,,CA87177ab3ca932fd960b4d457222fc5af
+2026-05-28T11:46:05.456000,voice,Devashish Singh,+918480210322,,,Outbound Lead,1.5 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-28T11:46:05.456000,voice,Devashish Singh,+918480210322,,,Outbound Lead,1.5 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-28T11:46:05.456000,voice,Devashish Singh,+918480210322,,,Outbound Lead,1.5 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-29T09:20:51.491663+00:00,voice,Unknown Customer,+91 93484 70094,,,Outbound Lead,,Outbound call initiated from VOCO Make Call UI.,
+2026-05-29T09:22:44.312397+00:00,voice,Vishwajit,+919348470094,vishwajit929.ml@gmail.com,Odisha,"Property in Rasulpur, Odisha",Unspecified,,CA806325984032f5698ec405cbca114ec0
+2026-05-26T13:09:28.663000,voice,Unknown Customer,+91848021032,,,Outbound Lead,,Initiated via Make Call UI page.,
+2026-05-28T11:46:05.456000,voice,Devashish Singh,+918480210322,,,Outbound Lead,1.5 Crores,Outbound call initiated from VOCO Make Call UI.,
+2026-05-29T10:30:00.045750+00:00,voice,Unknown Customer,+91 96927 34432,,,Outbound Lead,,Outbound call initiated from VOCO Make Call UI.,
+2026-05-29T10:32:31.771894+00:00,voice,Biswajit Pradhan,+91 96927 34432,,Hyderabad,Villa in Hyderabad,8.35 Crores,,CA9393f7596f668eca4845b5a94ed56f1d

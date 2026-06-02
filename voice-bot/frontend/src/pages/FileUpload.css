@@ -1,0 +1,177 @@
+.file-upload {
+    padding: 20px 0;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+  
+  .upload-card {
+    max-width: 800px;
+    margin: 0 auto 30px;
+  }
+  
+  .upload-card h2 {
+    margin-bottom: 15px;
+    color: var(--text-primary);
+  }
+  
+  .upload-description {
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+  }
+  
+  .drop-zone {
+    border: 2px dashed var(--border-color);
+    border-radius: 8px;
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .drop-zone.dragging {
+    border-color: var(--accent-primary);
+    background-color: rgba(126, 87, 194, 0.05);
+  }
+  
+  .drop-zone.has-file {
+    border-color: var(--success);
+    background-color: rgba(76, 175, 80, 0.05);
+  }
+  
+  .file-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .drop-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-icon {
+    font-size: 48px;
+    margin-bottom: 15px;
+  }
+  
+  .select-file-btn {
+    display: inline-block;
+    background-color: var(--accent-primary);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .select-file-btn:hover {
+    background-color: var(--accent-secondary);
+  }
+  
+  .file-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .file-icon {
+    font-size: 32px;
+    margin-right: 15px;
+  }
+  
+  .file-name {
+    font-weight: 500;
+    margin-right: 15px;
+    word-break: break-all;
+  }
+  
+  .file-size {
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+  
+  .remove-file {
+    background-color: var(--error);
+    color: white;
+    border: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-file:hover {
+    background-color: #d32f2f;
+  }
+  
+  .upload-btn {
+    width: 100%;
+  }
+  
+  .result-card {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .result-card h2 {
+    margin-bottom: 15px;
+    color: var(--text-primary);
+  }
+  
+  .result-json {
+    background-color: var(--bg-secondary);
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+    color: var(--text-primary);
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .file-info {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .file-icon {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .file-name {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  
+    .remove-file {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  

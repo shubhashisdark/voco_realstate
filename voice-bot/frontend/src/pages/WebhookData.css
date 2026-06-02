@@ -1,0 +1,85 @@
+.webhook-data {
+    padding: 20px 0;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-input:focus {
+    border-color: var(--accent-primary);
+    outline: none;
+  }
+  
+  .data-count {
+    margin-bottom: 15px;
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+  
+  .webhook-table-container {
+    overflow-x: auto;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .webhook-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .webhook-table th,
+  .webhook-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .webhook-table th {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: var(--text-secondary);
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+  }
+  
+  .webhook-table tbody tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  .webhook-table tbody tr:hover {
+    background-color: rgba(126, 87, 194, 0.1);
+  }
+  
+  .webhook-table td {
+    color: var(--text-primary);
+  }
+  
+  .no-data {
+    text-align: center;
+    padding: 40px;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    color: var(--text-secondary);
+  }
+  
+  @media (max-width: 768px) {
+    .webhook-table th,
+    .webhook-table td {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  

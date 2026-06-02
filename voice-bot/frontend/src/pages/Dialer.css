@@ -1,0 +1,214 @@
+.dialer-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.dialer-title {
+  font-size: 39px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dialer-card {
+  background: #e4e4e4;
+  border-radius: 40px;
+  padding: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  min-height: 450px;
+  border: 1px solid #e0e0e0;
+}
+
+.card-header h2 {
+  font-size: 24px;
+  color: #666;
+  margin: 0 0 25px 0;
+  font-weight: 500;
+}
+
+.mode-buttons {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.mode-btn {
+  flex: 1;
+  padding: 12px 10px;
+  border: 0px solid #f1f1f1;
+  background: #f8f9fa;
+  color: #666;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.2s ease;
+  margin-bottom: 10px;
+  border-radius: 14px;
+}
+
+.mode-btn.active {
+  background: #727272;
+  color: white;
+  border-color: #808080;
+}
+
+
+.manual-input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  font-size: 16px;
+  background: #f8f9fa;
+  transition: border-color 0.2s ease;
+  min-height: 50px;
+}
+
+.form-input:focus {
+  outline: none;
+  background: white;
+}
+
+.form-input::placeholder {
+  color: #999;
+}
+
+.action-btn {
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  padding: 16px 22px;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 280px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  min-height: 40px;
+  max-width:250px;
+}
+
+.action-btn:hover {
+  background: #16213e;
+}
+
+.more-fields {
+  color: #666;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 380px;
+  margin-top: 8px;
+}
+
+.more-fields:hover {
+  color: #333;
+}
+
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.upload-area {
+  border: 2px #ddd;
+  border-radius: 18px;
+  padding: 50px 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #fafafa;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.upload-area:hover {
+  background: #f0f8ff;
+}
+
+.upload-icon {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.upload-text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.upload-subtext {
+  color: #666;
+  font-size: 14px;
+}
+
+.file-selected {
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.file-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.file-name {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.remove-file {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 2px;
+}
+
+.file-size {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+  .dialer-card {
+    margin: 0 16px;
+    padding: 24px;
+    max-width: none;
+  }
+
+  .mode-buttons {
+    flex-direction: column;
+  }
+
+  .mode-btn {
+    width: 100%;
+  }
+}
