@@ -2,7 +2,7 @@ services:
   # 1. Backend FastAPI Service
   - type: web
     name: voco-voice-backend
-    env: python
+    runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     rootDir: voice-bot/backend
@@ -40,7 +40,7 @@ services:
   # 2. Frontend React static site
   - type: web
     name: voco-voice-frontend
-    env: static
+    runtime: static
     buildCommand: npm install && npm run build
     staticPublishPath: build
     rootDir: voice-bot/frontend
