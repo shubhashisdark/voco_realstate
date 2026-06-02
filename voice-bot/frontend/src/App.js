@@ -12,9 +12,10 @@ import WebhookData from "./pages/WebhookData"
 import Dialer from "./pages/Dialer"
 import Properties from "./pages/Properties"
 import Appointments from "./pages/Appointments"
+import { getBackendUrl } from "./utils/backendUrl"
 import "./App.css"
 
-const backendUrl = process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
+const backendUrl = getBackendUrl()
 
 function App() {
   const [theme, setTheme] = useState("dark")

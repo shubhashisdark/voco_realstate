@@ -16,6 +16,7 @@ import {
   AreaChart,
   Area,
 } from "recharts"
+import { getBackendUrl } from "../utils/backendUrl"
 import "./Dashboard.css"
 
 const Dashboard = () => {
@@ -42,7 +43,7 @@ const Dashboard = () => {
   const [showAnalytics, setShowAnalytics] = useState(true)
   const [showPendingCalls, setShowPendingCalls] = useState(false)
 
-  const backendUrl = (process.env.REACT_APP_BACKEND_URL || "http://localhost:5000").replace(/\/$/, "")
+  const backendUrl = getBackendUrl()
 
   const fetchJson = async (url, options = {}) => {
     const response = await fetch(url, options)

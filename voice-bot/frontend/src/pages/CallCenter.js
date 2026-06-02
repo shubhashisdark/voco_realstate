@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
+import { getBackendUrl } from "../utils/backendUrl"
 import "./CallCenter.css"
 
 const CallCenter = () => {
@@ -15,7 +16,7 @@ const CallCenter = () => {
 
   const navigate = useNavigate()
 
-  const backendUrl = process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
+  const backendUrl = getBackendUrl();
 
   const handleSubmit = async (e) => {
     e.preventDefault()

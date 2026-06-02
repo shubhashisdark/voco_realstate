@@ -14,6 +14,7 @@ import {
   Pie,
   Cell,
 } from "recharts"
+import { getBackendUrl } from "../utils/backendUrl"
 import "./CallDetail.css"
 
 const CallDetail = () => {
@@ -55,7 +56,7 @@ const CallDetail = () => {
   const phoneNumber = location.state?.phoneNumber || "Unknown"
   const sentiment = location.state?.sentiment || "neutral"
 
-  const backendUrl = (process.env.REACT_APP_BACKEND_URL || "http://localhost:5000").replace(/\/$/, "")
+  const backendUrl = getBackendUrl()
 
   const callStorageKey = (id) => `voco_call_${id}`
   const callIndexKey = "voco_call_index"

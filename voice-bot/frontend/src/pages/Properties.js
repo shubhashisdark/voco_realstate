@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { getBackendUrl } from "../utils/backendUrl"
 import "./Properties.css"
 
 const Properties = () => {
@@ -28,7 +29,7 @@ const Properties = () => {
     description: "",
   })
 
-  const backendUrl = process.env.REACT_APP_BACKEND_URL || "http://localhost:5000"
+  const backendUrl = getBackendUrl()
 
   const propertyTypes = ["1BHK", "2BHK", "3BHK", "3BHK+Villa", "Plot", "Commercial"]
 

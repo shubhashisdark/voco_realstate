@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { getBackendUrl } from "../utils/backendUrl"
 import "./FileUpload.css"
 
 const FileUpload = () => {
@@ -10,7 +11,7 @@ const FileUpload = () => {
   const [result, setResult] = useState(null)
   const [error, setError] = useState(null)
 
-  const backendUrl = process.env.REACT_APP_BACKEND_URL || process.env.BACKEND_URL || "http://localhost:5000"
+  const backendUrl = getBackendUrl()
 
   const handleFileChange = (e) => {
     if (e.target.files && e.target.files[0]) {

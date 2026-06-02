@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react"
 import { useNavigate } from "react-router-dom"
+import { getBackendUrl } from "../utils/backendUrl"
 import "./CallHistory.css"
 
 const CallHistory = () => {
@@ -13,7 +14,7 @@ const CallHistory = () => {
   const [activeView, setActiveView] = useState("all")
   const [searchTerm, setSearchTerm] = useState("")
 
-  const backendUrl = (process.env.REACT_APP_BACKEND_URL || "http://localhost:5000").replace(/\/$/, "")
+  const backendUrl = getBackendUrl()
 
   const fetchJson = async (url, options = {}) => {
     const response = await fetch(url, options)
