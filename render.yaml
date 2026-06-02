@@ -1,0 +1,52 @@
+services:
+  # 1. Backend FastAPI Service
+  - type: web
+    name: voco-voice-backend
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    rootDirectory: voice-bot/backend
+    plan: starter
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: MONGO_DB_NAME
+        value: voco_voice
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.1-flash-live-preview
+      - key: GEMINI_TEXT_MODEL
+        value: gemini-2.5-flash
+      - key: GEMINI_VOICE
+        value: Erinome
+      - key: GEMINI_THINKING
+        value: minimal
+      - key: TWILIO_ACCOUNT_SID
+        sync: false
+      - key: TWILIO_AUTH_TOKEN
+        sync: false
+      - key: TWILIO_PHONE_NUMBER
+        sync: false
+      - key: EXTERNAL_URL
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: WHATSAPP_PROVIDER
+        value: twilio
+      - key: PORT
+        value: 10000
+
+  # 2. Frontend React static site
+  - type: web
+    name: voco-voice-frontend
+    env: static
+    buildCommand: npm install && npm run build
+    publishPath: build
+    rootDirectory: voice-bot/frontend
+    envVars:
+      - key: REACT_APP_BACKEND_URL
+        fromService:
+          name: voco-voice-backend
+          type: web
+          property: host
