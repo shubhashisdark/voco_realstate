@@ -5,7 +5,7 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
-    rootDirectory: voice-bot/backend
+    rootDir: voice-bot/backend
     plan: starter
     envVars:
       - key: MONGO_URI
@@ -42,8 +42,8 @@ services:
     name: voco-voice-frontend
     env: static
     buildCommand: npm install && npm run build
-    publishPath: build
-    rootDirectory: voice-bot/frontend
+    staticPublishPath: build
+    rootDir: voice-bot/frontend
     envVars:
       - key: REACT_APP_BACKEND_URL
         fromService:
